@@ -271,30 +271,6 @@ const Navbar = () => {
 					</p>
 				)}
 			</div>
-			{/* <div
-				onMouseEnter={() => setHover(true)
-				className='z-50 duration-700 fixed right-1 md:right-5 bottom-2'>
-				{hover ? (
-					<div className='text-white flex flex-col gap-1 duration-500 ease-in-out transition'>
-						{navItems?.map((nav) => (
-							<ScrollLink
-								key={nav?.route}
-								to={nav?.pathName}
-								placement='top'
-								className='p-3 bn10 bg-gray-500 rounded-full tooltip cursor-pointer'>
-								{nav.Icon} <span className='tooltiptext'>{nav?.route}</span>
-							</ScrollLink>
-						))}
-						<p to='banner' className='p-3 bn10 bg-gray-500 rounded-full'>
-							<FaTimes className='text-xl' />
-						</p>
-					</div>
-				) : (
-					<p to='banner' className=' p-3 bg-gray-500 rounded-full'>
-						<Icon className='text-xl' />
-					</p>
-				)}
-			</div> */}
 		</>
 	);
 };
