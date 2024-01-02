@@ -17,6 +17,8 @@
     "@mui/material": "^5.14.20",
     "@tsparticles/react": "^3.0.0",
     "aos": "^2.3.4",
+    "axios": "^1.6.2",
+    "firebase": "^10.7.1",
     "localforage": "^1.10.0",
     "lottie-react": "^2.4.0",
     "match-sorter": "^6.3.1",
